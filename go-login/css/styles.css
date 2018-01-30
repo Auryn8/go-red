@@ -1,0 +1,59 @@
+ body { 
+      background-image: url(../assets/images/login-img.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      font-family: sans-serif; 
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+.signin-box {
+  border-radius: 2rem;
+}
+
+h1 {
+  color: orangered;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+h5 {
+  font-weight: bolder;
+  font-style: italic;
+  color: blue;
+  font-size: 1rem;
+}
+
+a {
+   color: blue;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.btn-large {
+  background-color: orangered;
+}
+
+
+  
+
+    .input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color: blue;
+    }
+
+    .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid blue;
+      box-shadow: none;
+    }
+  
