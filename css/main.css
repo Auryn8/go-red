@@ -1,0 +1,23 @@
+a.planear{
+    text-align: center;
+    width: 100%;
+  }
+
+.addComment{
+text-align: center;
+border: 1px solid rgb(255, 104, 3);
+  }
+
+#add-comm{
+    height: 50px;
+    width: 100%;
+}
+
+.comment{
+    text-align: center;
+    border: 1px solid rgb(255, 123, 0);
+}
+
+.comm-img{
+    width: 90%;
+}
